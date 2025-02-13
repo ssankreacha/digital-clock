@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Digital Clock</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <h1>⏰ Digital Clock</h1>
+    <div id="clock">00:00:00</div>
+    <div id="date">January 1, 2024</div>
+
+    <button onclick="toggleFormat()">🕒 Toggle 12/24-Hour</button>
+    <button onclick="toggleTheme()">🌙 Toggle Light/Dark Mode</button>
+    <label for="fontSize">Font Size: </label>
+    <select id="fontSize" onchange="changeFontSize()">
+        <option value="2em">Small</option>
+        <option value="3em" selected>Medium</option>
+        <option value="4em">Large</option>
+    </select>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
