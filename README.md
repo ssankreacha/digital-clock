@@ -1,4 +1,4 @@
-# ⏰ JavaScript Digital Clock (Enhanced Version)
+# ⏰ JavaScript Digital Clock
 
 A real-time digital clock that updates every second, now with additional features such as **12/24-hour toggle, light/dark mode, font size selector, and date display**.
 
